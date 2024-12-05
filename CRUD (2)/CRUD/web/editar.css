@@ -1,0 +1,152 @@
+/* Estilo Geral */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color:#000000a8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+/* Estilo do container principal */
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin: 20px;
+}
+
+/* Título da página */
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Estilo do formulário */
+p {
+    margin-bottom: 15px;
+}
+
+/* Estilo dos campos de entrada */
+input[type="number"], input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+  
+}
+
+input[type="number"]:focus, input[type="text"]:focus {
+    border-color: #8a1313;
+    outline: none;
+}
+
+/* Estilo para o botão de envio */
+input[type="submit"] {
+    background-color: #8a1313;
+    color: #ffffff;
+    border: none;
+    padding: 5px 5px;
+    font-size: 16px;
+    border-radius: 9px;
+    cursor: pointer;
+    width: 50%;
+    margin-top: 15px;
+   
+}
+
+input[type="submit"]:hover {
+    background-color: #8a1313;
+}
+
+a{
+    text-decoration: none;
+    color: #000; 
+}
+
+/* Estilo da mensagem de erro */
+p[style="color:red;"] {
+    color: #8a1313f;
+    font-size: 18px;
+    text-align: center;
+}
+header{
+    color:#8a1313;
+    font-size:180%;
+}
+
+@media  (min-width: 360px) and (max-width: 800px) {
+  body {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  form {
+    width: 120%;
+    margin: 40px auto;
+    padding: 90px 100px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   height: 800px;
+   margin-top: 23%;
+  }
+ input[type="number"],
+input[type="text"] {
+    height: 80%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+      font-size: 200%;
+}
+header{
+    color: #8a1313;
+    font-size: 350%;
+    
+  }
+  
+ 
+  label{
+      color:#000;
+      font-size: 200%;
+      margin-top:400%;
+       
+  }
+input[type="submit"] {
+    background-color: #8a1313;
+    color: #ffffff;
+    border: none;
+    padding: 15px 15px;
+    font-size: 35px;
+    border-radius: 9px;
+    cursor: pointer;
+    width: 50%;
+  
+ 
+}
+p {
+    margin-bottom: 45px;
+}
+a{
+    text-decoration: none;
+    color: #000; 
+    font-size: 200%
+}
+p[style="color:green;"] {
+    color: #28a745;
+    font-size: 18px;
+    text-align: center;
+}
+
+}

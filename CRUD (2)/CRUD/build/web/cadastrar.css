@@ -1,0 +1,68 @@
+header{
+  color: #8a1313;
+  font-size: 200%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+form {
+    width: 50%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="number"],
+input[type="text"] {
+    width: 96%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    width: 100%;
+    height: 40px;
+    background-color:  #8a1313;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+@media (min-width: 360px) and (max-width: 800px) {
+  form {
+    width: 90%; /* Aumentei para 90% para garantir que o formulário ocupe mais espaço disponível em telas menores */
+    margin: 20px auto; /* Ajustei a margem para um espaçamento mais consistente */
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* Para garantir que o padding não cause estouro do layout */
+  }
+
+  input[type="number"],
+  input[type="text"] {
+    width: 90%; /* Garantir que os inputs ocupem toda a largura disponível */
+    height: 40px; /* Aumentei a altura para tornar os inputs mais visíveis em telas menores */
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+}
